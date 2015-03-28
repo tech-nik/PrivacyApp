@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PRIVACY++</string>    
+    <string name="stegactivitylabel">Steganography</string>
+    <string name="action_settings">Settings</string>
+	<string name="iwantto">I want to...</string>
+	<string name="hide">Hide</string>
+	<string name="reveal">Reveal</string>
+	<string name="next">Next >></string>
+	<string name="fileactivitylabel">Choose an audio file</string>
+	<string name = "empty">Empty</string>
+	<string name = "entertext">Enter here the text to hide!</string>
+	<string name = "hideactivitylabel">Enter Text</string>
+	<string name = "submit">Submit</string>
+	<string name = "steganography">Steganography</string>
+	<string name = "picpass">Picture Password</string>
+	<string name = "appaccess">Application Access</string>
+	<string name= "loadpic">Load Picture</string>
+	<string name = "picactivitylabel">Picture Password</string>
+</resources>
+

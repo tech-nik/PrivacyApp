@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/photo" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/iwantto"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <RadioGroup 
+        android:id="@+id/radiogroup_choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        android:checkedButton="@+id/radio_hide" >
+        
+        <RadioButton 
+            android:id="@+id/radio_hide"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hide"/>
+        <RadioButton 
+            android:id="@+id/radio_reveal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reveal"/>
+       
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/next"
+        android:onClick="startFileActivity" />
+
+</LinearLayout>
